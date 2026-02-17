@@ -1,0 +1,66 @@
+.time-series-section {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  color: white;
+}
+
+.time-series-controls {
+  margin-bottom: 2rem;
+}
+
+.time-series-controls h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chart-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.time-series-table {
+  overflow-x: auto;
+}
+
+.time-series-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.time-series-table th,
+.time-series-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.time-series-table th {
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+.time-series-table tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.time-series-table tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .time-series-table {
+    font-size: 0.9rem;
+  }
+  
+  .time-series-table th,
+  .time-series-table td {
+    padding: 0.5rem;
+  }
+}
